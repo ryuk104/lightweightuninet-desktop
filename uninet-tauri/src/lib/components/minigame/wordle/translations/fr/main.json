@@ -1,0 +1,69 @@
+{
+	"tutorial": {
+		"title": "Comment jouer",
+		"objective": "Deviner le mot en 6 essais !",
+		"explanation": "Après chaque supposition, les tuiles montrent si vos lettres sont plus ou moins élevées dans l'alphabet par rapport aux bonnes lettres. Plus haut signifie plus près de A, plus bas signifie plus proche de Z.",
+		"correct_tile": "La lettre est correcte",
+		"high_tile": "La lettre est trop haute dans l'alphabet",
+		"low_tile": "La lettre est trop basse dans l'alphabet",
+		"letter_range": "La plage de lettrés possibles est affiché sur la tuile et le clavier lorsque tu tapes"
+	},
+	"messages": {
+		"not_enough_letters": "Pas assez de lettres",
+		"invalid_word": "Pas un mot valide",
+		"use_valid_letters": "Votre mot doit utiliser des lettres valides",
+		"could_not_do": "Désolé, je ne peux pas faire ça !",
+		"score_copied": "Score copié !",
+		"image_copied": "Image copiée !",
+		"need_reload": "Mise à jour nécessaire, veuillez recharger la page"
+	},
+	"keyboard": {
+		"enter": "Entrer"
+	},
+	"results": {
+		"win": "Vous l'avez !",
+		"lose": "Oh non !",
+		"answer": "La réponse était <strong>{{answer}}</strong>",
+		"try_today": "Essayez le mot du jour&nbsp;!",
+		"next_word": "Prochain mot",
+		"play_daily": "Jouer au Jeu Quotidienne",
+		"play_random": "Jouer au Jeu Aléatoire",
+		"share": "Partager",
+		"text": "Texte",
+		"image": "Image",
+		"copy_image": "Copier l'Image"
+	},
+	"stats": {
+		"title": "Statistiques",
+		"total_games": "Total des parties",
+		"win_rate": "Taux de victoire",
+		"current_streak": "Série actuelle",
+		"best_streak": "Meilleure série",
+		"guess_distribution": "Répartition des essais",
+		"stats_daily": "Les statistiques ne comptent que les jeux quotidiens"
+	},
+	"summary": {
+		"title": "Résumé",
+		"daily": "Quotidienne",
+		"random": "Aléatoire",
+		"answer": "Réponse",
+		"total_time": "Temps total"
+	},
+	"options": {
+		"title": "Options",
+		"language": "Langue",
+		"help_translate": "Ajouter ou corriger des traductions sur <a href=\"https://crowdin.com/project/wordle-peaks\">Crowdin</a> ou <a href=\"https://github.com/vegeta897/wordle-peaks#translate\">GitHub</a>",
+		"keyboard_layout": "Configuration du clavier",
+		"hard_mode": "Mode difficile",
+		"high_contrast_mode": "Mode contraste élevé",
+		"show_all_hints": "Afficher tous les indices dans la ligne",
+		"swap_enter_backspace": "Échanger les touches Entrer/Retour",
+		"alphabetic": "Alphabétique",
+		"use_dyslexic_font": "Police OpenDyslexic",
+		"include_link": "Inclure le lien dans le texte de partage"
+	},
+	"footer": {
+		"credits": "un projet <a href=\"https://github.com/vegeta897/wordle-peaks\">open source</a> inspiré par <a href=\"https://www.nytimes.com/games/wordle/index.html\">Wordle</a>",
+		"donate": "☕ <a href=\"https://buymeacoffee.com/vegeta897\">achète-moi un café</a> si tu veux me soutenir"
+	}
+}

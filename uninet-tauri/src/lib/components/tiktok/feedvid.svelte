@@ -1,0 +1,40 @@
+<script>
+import { getVideos } from '../../services/services'
+import VideoPlayer from '../VideoPlayer/VideoPlayer'
+import styles from './styles.module.css'
+
+const FeedVideos = () => {
+  const [videos, setVideos] = useState([])
+  const [error, setError] = useState(null)
+
+  useEffect(() => {
+    let cleanup = true
+    if (cleanup) {
+      getVideos().then(([error, Videos]) => {
+        if (error) setError(error)
+        setVideos(Videos)
+      })
+    }
+    return () => {
+      cleanup = false
+    }
+  }, [])
+
+  if (error) {
+    return (
+      <span>{error}</span>
+    )
+  }
+
+</script>
+
+    videos.map(video => {
+      const { user = {} } = video
+      return (
+        <div className={styles.item} key={video.id}>
+          <VideoPlayer {...video} username={user.username} avatar={user.avatar} />
+        </div>
+      )
+    })
+  )
+}
